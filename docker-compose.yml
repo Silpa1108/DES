@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  mydes:
+    image: mydes
+    build: 
+      context: .
+      dockerfile: ./Dockerfile
+   
